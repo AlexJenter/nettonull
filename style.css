@@ -1,3 +1,7 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -5,16 +9,26 @@
   margin: 0 auto;
 }
 
+.brand {
+  display: flex;
+}
+
 .page-titel {
   display: block;
   font-family: 'Montserrat', 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 100px;
-  padding: 0 50px;
+  padding: 0 20px 0 50px;
 }
 
 #light {
   font-weight: 100;
+}
+
+.logo {
+  display: block;
+  width: 80px;
+  margin-bottom: 60px;
 }
 
 .paragraph {
@@ -32,4 +46,13 @@
 
 .image img {
   width: 50%;
+}
+
+.footer__links {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  width: 100%;
+  list-style: none;
+  border-top: 1px solid black;
 }
