@@ -1,10 +1,6 @@
 // imports here
 @import "reset";
-
-// variables here
-$font: "Montserrat", "Open Sans", sans-serif;
-$font-weight-light: 100;
-$font-weight-bold:  700;
+@import "variables";
 
 .container {
   display: flex;
