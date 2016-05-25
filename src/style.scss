@@ -1,7 +1,9 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
+// imports here
+@import "reset";
+
+// variables here
+$font: "Montserrat", "Open Sans", sans-serif;
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +17,7 @@ html, body {
 
 .page-titel {
   display: block;
-  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-family: $font;
   font-weight: 700;
   font-size: 100px;
   padding: 0 20px 0 50px;
@@ -32,7 +34,7 @@ html, body {
 }
 
 .paragraph {
-  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-family: $font;
   width: 50%;
   font-weight: 100;
   font-size: 16px;
@@ -49,7 +51,7 @@ html, body {
 }
 
 .footer__links {
-  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-family: $font;
   font-weight: 100;
   font-size: 16px;
   width: 100%;
