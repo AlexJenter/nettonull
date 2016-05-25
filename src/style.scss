@@ -3,6 +3,8 @@
 
 // variables here
 $font: "Montserrat", "Open Sans", sans-serif;
+$font-weight-light: 100;
+$font-weight-bold:  700;
 
 .container {
   display: flex;
@@ -18,7 +20,7 @@ $font: "Montserrat", "Open Sans", sans-serif;
 .page-titel {
   display: block;
   font-family: $font;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
   font-size: 100px;
   padding: 0 20px 0 50px;
 }
@@ -36,7 +38,7 @@ $font: "Montserrat", "Open Sans", sans-serif;
 .paragraph {
   font-family: $font;
   width: 50%;
-  font-weight: 100;
+  font-weight: $font-weight-light;
   font-size: 16px;
   padding: 0 50px;
   box-sizing: border-box;
