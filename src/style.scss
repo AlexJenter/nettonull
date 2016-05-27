@@ -1,7 +1,9 @@
 @import "fonts";
-@import "variables";
-@import "reset";
-@import "cta";
+@import "tools/variables";
+@import "base/reset";
+@import "layout/header";
+@import "modules/cta";
+@import "modules/svg";
 
 .container {
   display: flex;
@@ -10,27 +12,11 @@
   margin: 0 auto;
 }
 
-.brand {
-  display: flex;
-}
 
-.page-titel {
-  display: block;
-  font-family: $font;
-  font-weight: $font-weight-bold;
-  font-size: 100px;
-  padding: 0 20px 0 50px;
-}
 
-#light {
-  font-weight: 100;
-}
 
-.logo {
-  display: block;
-  width: 80px;
-  margin-bottom: 60px;
-}
+
+
 
 .paragraph {
   font-family: $font;
@@ -56,16 +42,4 @@
   width: 100%;
   list-style: none;
   border-top: 1px solid black;
-}
-
-.path {
-  stroke-dasharray: 1000;
-  animation: dash 5s linear;
-  stroke-dashoffset: 1000;
-}
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
 }
