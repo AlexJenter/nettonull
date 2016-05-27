@@ -1,0 +1,12 @@
+.claim {
+  margin: 0 $page-gutter $page-gutter;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  color: black;
+  text-align: right;
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+  }
+}

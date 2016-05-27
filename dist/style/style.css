@@ -137,3 +137,13 @@ svg {
 @media screen and (max-width: 960px) {
   .paragraph {
     width: 100%; } }
+
+.claim {
+  margin: 0 50px 50px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  color: black;
+  text-align: right; }
+  .claim h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100; }
