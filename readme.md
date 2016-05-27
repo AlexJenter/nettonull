@@ -6,6 +6,9 @@ save all the things!
 
 ### setup
 We compile the source files with gulp. Go to [gulpjs.com](http://gulpjs.com/) and install gulp locally.
+````
+npm install --global gulp-cli
+```
 
 Then your gonna need node and a local http server to get going...
 first go to [nodejs](https://nodejs.org/en/download/) and get the latest node.js version!
