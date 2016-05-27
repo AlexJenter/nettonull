@@ -1,0 +1,42 @@
+svg {
+  fill: rgba(0, 0, 0, 0);
+}
+.path {
+  position: absolute;
+  top: 0;
+  stroke: $color-grey;
+  stroke-dasharray: 20;
+  stroke-dashoffset: 2000;
+  animation: dash 100s infinite linear;
+}
+
+.small {
+  transform: scale(0.5);
+  animation: dash--small 100s infinite linear;
+}
+
+
+@keyframes dash {
+  from {
+    left: -20%;
+  }
+  to {
+    left: 120%;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash--small {
+  from {
+    left: -50%;
+  }
+  to {
+    left: 150%;
+    stroke-dashoffset: 0;
+  }
+}
+
+
+.tiny {
+  transform: scale(0.2);
+}

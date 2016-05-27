@@ -8,7 +8,7 @@
   text-transform: uppercase;
   @include font-style-text-bold;
 
-  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 15px -10px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   background-color: $color-blue;
   color: white;
@@ -17,6 +17,6 @@
 
   &:hover {
     transform: translate(0px, -10px);
-    box-shadow: 1px 10px 0px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 15px 15px -10px rgba(0, 0, 0, 0.5);
   }
 }
