@@ -1,5 +1,6 @@
 @import "variables";
 @import "reset";
+@import "cta";
 
 .container {
   display: flex;
@@ -54,4 +55,16 @@
   width: 100%;
   list-style: none;
   border-top: 1px solid black;
+}
+
+.path {
+  stroke-dasharray: 1000;
+  animation: dash 5s linear;
+  stroke-dashoffset: 1000;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
 }

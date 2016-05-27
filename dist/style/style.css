@@ -2,6 +2,24 @@ html, body {
   margin: 0;
   padding: 0; }
 
+.call-to-action {
+  display: block;
+  width: 100px;
+  padding: 20px;
+  margin: 0 auto 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-weight: 600;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  background-color: #0066FF;
+  color: white;
+  transition: all 200ms ease; }
+  .call-to-action:hover {
+    transform: translate(0px, -10px);
+    box-shadow: 1px 10px 0px 0px rgba(0, 0, 0, 0.5); }
+
 .container {
   display: -ms-flexbox;
   display: flex;
@@ -50,3 +68,12 @@ html, body {
   width: 100%;
   list-style: none;
   border-top: 1px solid black; }
+
+.path {
+  stroke-dasharray: 1000;
+  animation: dash 5s linear;
+  stroke-dashoffset: 1000; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
