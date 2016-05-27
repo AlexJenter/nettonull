@@ -4,7 +4,7 @@ save all the things!
 
 ## Usage
 
-### setup development environment
+### setup
 ```
 npm install
 ```
@@ -15,5 +15,5 @@ npm start
 gulp
 ```
 
-# Copyright and license
+## Copyright and license
 Code and documentation copyright 2016 Alex Jenter and Patrick Recher. Code is released under the GPLv3 license.
