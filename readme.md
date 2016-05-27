@@ -1,5 +1,4 @@
 # nettonull
-!()[https://mafstore.blob.core.windows.net/media/54f605983e3f827e2aaa6d80.jpeg]
 save all the things!
 
 
