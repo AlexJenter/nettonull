@@ -1,6 +1,8 @@
 footer {
   max-width: $page-max-width;
+  padding: 0 $page-gutter;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 
@@ -12,7 +14,11 @@ footer {
 
   border-top: 1px solid black;
 
+  ul {
+    padding: 0;
+  }
+
   li {
-    list-style: none; 
+    list-style: none;
   }
 }

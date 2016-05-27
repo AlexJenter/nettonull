@@ -10,3 +10,9 @@
 .paragraph__title {
   text-transform: uppercase;
 }
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .paragraph {
+      width: 100%;
+  }
+}

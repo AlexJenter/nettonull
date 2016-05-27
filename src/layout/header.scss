@@ -1,6 +1,8 @@
 header {
   max-width: $page-max-width;
+  padding: 0 $page-gutter;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .brand {

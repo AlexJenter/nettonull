@@ -22,7 +22,9 @@ html, body {
 
 header {
   max-width: 960px;
-  margin: 0 auto; }
+  padding: 0 50px;
+  margin: 0 auto;
+  box-sizing: border-box; }
 
 .brand {
   display: -ms-flexbox;
@@ -30,7 +32,7 @@ header {
 
 .page-titel {
   display: block;
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 100px; }
   .page-titel span {
@@ -51,18 +53,23 @@ main {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding: 0 50px;
   margin: 0 -25px; }
 
 footer {
   max-width: 960px;
-  margin: 0 auto; }
+  padding: 0 50px;
+  margin: 0 auto;
+  box-sizing: border-box; }
 
 .footer__links {
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 16px;
   width: 100%;
   border-top: 1px solid black; }
+  .footer__links ul {
+    padding: 0; }
   .footer__links li {
     list-style: none; }
 
@@ -73,7 +80,7 @@ footer {
   margin: 0 auto 20px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   box-shadow: 1px 1px 15px -10px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
@@ -117,7 +124,7 @@ svg {
   transform: scale(0.2); }
 
 .paragraph {
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 50%;
   font-weight: 100;
   font-size: 16px;
@@ -126,3 +133,7 @@ svg {
 
 .paragraph__title {
   text-transform: uppercase; }
+
+@media screen and (max-width: 960px) {
+  .paragraph {
+    width: 100%; } }
