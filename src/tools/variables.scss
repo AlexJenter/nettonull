@@ -1,4 +1,6 @@
 $page-max-width: 960px;
+$page-gutter: 50px;
+$page-gutter-half: $page-gutter * 0.5;
 
 $color-blue: #0066FF;
 $color-grey: #dedede;
@@ -6,6 +8,7 @@ $color-grey: #dedede;
 
 $font: "Montserrat", "Open Sans", sans-serif;
 $font-weight-light: 100;
+$font-weight-regular: 400;
 $font-weight-bold: 700;
 
 

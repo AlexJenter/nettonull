@@ -1,20 +1,25 @@
+header {
+  max-width: $page-max-width;
+  margin: 0 auto;
+}
+
 .brand {
   display: flex;
 }
+
 .page-titel {
   display: block;
   font-family: $font;
   font-weight: $font-weight-bold;
   font-size: 100px;
-  padding: 0 20px 0 50px;
-}
-
-#light {
-  font-weight: 100;
+  span {
+    font-weight: $font-weight-light;
+  }
 }
 
 .logo {
   display: block;
   width: 80px;
+  margin-left: 20px;
   margin-bottom: 60px;
 }

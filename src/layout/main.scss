@@ -1,0 +1,10 @@
+main {
+  max-width: $page-max-width;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 (-$page-gutter-half);
+}

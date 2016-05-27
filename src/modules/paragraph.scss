@@ -1,0 +1,12 @@
+.paragraph {
+  font-family: $font;
+  width: 50%;
+  font-weight: $font-weight-light;
+  font-size: 16px;
+  padding: 0 $page-gutter-half;
+  box-sizing: border-box;
+}
+
+.paragraph__title {
+  text-transform: uppercase;
+}

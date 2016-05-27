@@ -4,26 +4,67 @@
   font-weight: 100;
   font-style: normal; }
 
-.brand {
-  display: -ms-flexbox;
+@font-face {
+  font-family: 'Montserrat';
   src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff");
   font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.brand {
+  display: -ms-flexbox;
   display: flex; }
 
 .page-titel {
   display: block;
   font-family: "Montserrat", "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 100px;
-  padding: 0 20px 0 50px; }
-
-#light {
-  font-weight: 100; }
+  font-size: 100px; }
+  .page-titel span {
+    font-weight: 100; }
 
 .logo {
   display: block;
   width: 80px;
+  margin-left: 20px;
   margin-bottom: 60px; }
+
+main {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.content-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -25px; }
+
+footer {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.footer__links {
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  width: 100%;
+  border-top: 1px solid black; }
+  .footer__links li {
+    list-style: none; }
 
 .call-to-action {
   display: block;
@@ -33,7 +74,7 @@
   text-align: center;
   text-transform: uppercase;
   font-family: "Montserrat", "Open Sans", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   box-shadow: 1px 1px 15px -10px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   background-color: #0066FF;
@@ -75,32 +116,13 @@ svg {
 .tiny {
   transform: scale(0.2); }
 
-.container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  max-width: 960px;
-  margin: 0 auto; }
-
 .paragraph {
   font-family: "Montserrat", "Open Sans", sans-serif;
   width: 50%;
   font-weight: 100;
   font-size: 16px;
-  padding: 0 50px;
+  padding: 0 25px;
   box-sizing: border-box; }
 
 .paragraph__title {
   text-transform: uppercase; }
-
-.image img {
-  width: 50%; }
-
-.footer__links {
-  font-family: "Montserrat", "Open Sans", sans-serif;
-  font-weight: 100;
-  font-size: 16px;
-  width: 100%;
-  list-style: none;
-  border-top: 1px solid black; }
